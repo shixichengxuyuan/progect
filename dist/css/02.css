@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html,
+body,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+fieldset,
+legend,
+table,
+tr,
+td {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong,
+i,
+em {
+  font-weight: normal;
+  font-style: normal; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul,
+ol {
+  list-style: none; }
+
+img,
+fieldset {
+  border: none;
+  vertical-align: middle; }
+
+.clearfn:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+.clearfn {
+  zoom: 1; }
+
+header {
+  width: 100%;
+  height: 88px; }
+  header aside {
+    width: 1195px;
+    display: flex;
+    margin: 0 auto; }
+    header aside a img {
+      width: 288px;
+      height: 44px;
+      margin-top: 20px; }
+
+main {
+  height: 592px;
+  width: 100%;
+  background: #F74660; }
+  main section {
+    position: absolute;
+    height: 592px;
+    width: 1195px;
+    margin: 0 auto;
+    background: url("../images/login_bg.png") no-repeat; }
+    main section article {
+      height: 469px;
+      width: 326px;
+      background: oldlace;
+      position: relative;
+      top: 50px;
+      left: 809px;
+      padding: 24px; }
+      main section article aside {
+        width: 318px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between; }
+        main section article aside div {
+          height: 38px;
+          width: 40px;
+          border: 1px solid black; }
+          main section article aside div img {
+            padding: 5px;
+            height: 30px;
+            width: 34px; }
+        main section article aside input {
+          height: 36px;
+          width: 273px;
+          padding-left: 5px; }
+        main section article aside button {
+          height: 42px;
+          width: 312px;
+          padding: 1px 6px;
+          background: #E4393C; }
+
+footer {
+  height: 249px;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  footer section {
+    width: 1195px; }
+    footer section article {
+      display: flex;
+      justify-content: space-between; }
+      footer section article aside {
+        width: 25%;
+        height: 80px;
+        position: relative;
+        margin-top: 10px; }
+        footer section article aside img {
+          height: 52px;
+          width: 52px; }
+        footer section article aside div {
+          height: 52px;
+          width: 103px;
+          margin-top: 5px;
+          position: relative;
+          top: -52px;
+          left: 66px;
+          font-size: 20px;
+          font-weight: 600; }
+      footer section article div {
+        margin: 0 auto; }
+        footer section article div a {
+          padding: 12px; }
+
+a:hover {
+  color: red; }
